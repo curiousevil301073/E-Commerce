@@ -13,6 +13,11 @@
     "express": "^4.17.2",
     "express-generator": "^4.16.1",
     "g": "^2.0.1",
-    "package.json": "^2.0.1"
+    "mysql2": "^2.3.3",
+    "package.json": "^2.0.1",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
   }
 }
