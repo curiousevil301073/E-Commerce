@@ -19,7 +19,6 @@ module.exports = (sequelize, DataTypes) => {
         values: ['customer', 'staff', 'seller']
       }),
       defaultValue: 'customer'
-
     },
     firstName: {
       type: DataTypes.STRING,
@@ -51,13 +50,16 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: 'male'
     },
     state: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false
     },
     city: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false
     },
     pincode: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false
     },
   }, {
     sequelize,
